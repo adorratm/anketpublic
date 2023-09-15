@@ -71,7 +71,7 @@
                           :href="
                             'https://www.facebook.com/sharer/sharer.php?u=' +
                             $config.BASE_URL +
-                            localePath('/poll/' + item.seo_url)
+                            'poll/'+ item.seo_url
                           "
                           ><i class="fab fa-facebook bg-facebook"></i>
                           {{ $t("poll.shareOnFacebook") }}</a
@@ -88,7 +88,7 @@
                             encodeURIComponent(item.title) +
                             '&url=' +
                             $config.BASE_URL +
-                            localePath('/poll/' + item.seo_url)
+                            'poll/'+ item.seo_url
                           "
                           ><i class="fab fa-twitter bg-twitter"></i>
                           {{ $t("poll.shareOnTwitter") }}</a
@@ -107,7 +107,7 @@
                             encodeURIComponent(item.title) +
                             ' ' +
                             $config.BASE_URL +
-                            localePath('/poll/' + item.seo_url)
+                            'poll/'+ item.seo_url
                           "
                           ><i class="far fa-envelope bg-google"></i>
                           {{ $t("poll.shareOnEmail") }}</a
@@ -120,9 +120,9 @@
                           :title="$t('poll.shareOnWhatsapp')"
                           class="puerto-popup"
                           :href="
-                            'whatsapp://send?text=' +
+                            'https://wa.me/send?text=' +
                             $config.BASE_URL +
-                            localePath('/poll/' + item.seo_url)
+                            'poll/'+ item.seo_url
                           "
                           ><i class="fab fa-whatsapp bg-2"></i>
                           {{ $t("poll.shareOnWhatsapp") }}</a

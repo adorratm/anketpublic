@@ -47,8 +47,14 @@ You need to install redis if you are using windows go to this link : https://git
 
 Google, Facebook, Twitter(X) Developer Tokens need for login
 
+----------------------------------------------------
 
+You need to import sql file to your phpmyadmin or something
 
+You can login with this credentials
+
+Email: info@anket.com
+Password: my12345
 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
 
